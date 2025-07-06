@@ -24,7 +24,7 @@ local local_player = players.LocalPlayer
 local backpack = local_player.Backpack
 
 if not firesignal then
-    local_player:Kick("You prob have the shittiest executor seen in humanity that it dosent have firesignal go away LOL")
+    warn("[Script Warning] Your executor does not support firesignal. Some automation features may not work.")
 end
 
 local world = workspace:FindFirstChild("World")
